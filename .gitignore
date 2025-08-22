@@ -1,16 +1,29 @@
-# Godot 4+ specific ignores
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+
+# Godot
 .godot/
 .nomedia
-
-# Godot-specific ignores
 .import/
 export.cfg
-export_credentials.cfg
-
-# Imported translations (automatically generated from CSV files)
+export_presets.cfg
 *.translation
-
-# Mono-specific ignores
+*.import
+*.tmp
 .mono/
 data_*/
 mono_crash.*.json
+
+# Билды/артефакты
+*.apk
+*.ipa
+
+# Node (если появится)
+node_modules/
+
+# Архивы
+*.zip

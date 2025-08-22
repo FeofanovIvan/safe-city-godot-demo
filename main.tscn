@@ -1,0 +1,527 @@
+[gd_scene load_steps=61 format=3 uid="uid://y30g0j3s2b3f"]
+
+[ext_resource type="Texture2D" uid="uid://dhx0eri6lydc4" path="res://assets/background/map_with_natural_grass_texture.png" id="1_4c57u"]
+[ext_resource type="Texture2D" uid="uid://c4j00xibj3roc" path="res://assets/buildings/0f98fdca-42cf-4cba-b72f-b48c9fb41d2d.png" id="2_dg77c"]
+[ext_resource type="Texture2D" uid="uid://lufq4udjrmf6" path="res://assets/characters/girl_front_1.png" id="2_efxa6"]
+[ext_resource type="Texture2D" uid="uid://0ngqja4yaorl" path="res://assets/characters/girl_front_2.png" id="3_dg77c"]
+[ext_resource type="Texture2D" uid="uid://d0ku3qjdqukr8" path="res://assets/buildings/812dc86d-c380-4094-aa70-107b36a60154.png" id="4_2cqfq"]
+[ext_resource type="Texture2D" uid="uid://5p1kcq8g6gtt" path="res://assets/buildings/b883f2c1-8c29-4618-a03a-e24d45cd9c02.png" id="4_getpj"]
+[ext_resource type="Texture2D" uid="uid://bud7vgyap6o7d" path="res://assets/characters/left_1 (1) (2).png" id="4_ycdy4"]
+[ext_resource type="Texture2D" uid="uid://f7r0sb0m4djh" path="res://assets/buildings/c6a25329-0a6e-42f1-a8c9-cc1d7e225ff6 — копия.png" id="5_ryguw"]
+[ext_resource type="Texture2D" uid="uid://w34fielnmdcn" path="res://assets/characters/left_2 (1) (1).png" id="5_w48qg"]
+[ext_resource type="Texture2D" uid="uid://c8e8so4h2vt20" path="res://assets/buildings/22879bf6-c93f-4551-b4aa-d8988023a0a5.png" id="6_074og"]
+[ext_resource type="Texture2D" uid="uid://stqjniclfepb" path="res://assets/characters/right_2 (1).png" id="6_vivmo"]
+[ext_resource type="Texture2D" uid="uid://daouj67ccyuqi" path="res://assets/characters/right_1 (1).png" id="7_2cqfq"]
+[ext_resource type="Texture2D" uid="uid://cahyxf6cljkuy" path="res://assets/buildings/59b0acef-5651-4660-95a4-4d071dc5c35e.png" id="7_cegan"]
+[ext_resource type="Texture2D" uid="uid://20fdxnaki0y8" path="res://assets/buildings/f30c20ff-9128-478d-bbb9-9319a1016738.png" id="8_074og"]
+[ext_resource type="Texture2D" uid="uid://baxxb267k0k5p" path="res://assets/characters/girl_back_2.png" id="8_yaehf"]
+[ext_resource type="Texture2D" uid="uid://dv1pj6hvhrd6g" path="res://assets/buildings/b88532da-e845-47f0-b663-c77c5aa4950f.png" id="9_1u8w0"]
+[ext_resource type="Texture2D" uid="uid://cbws3cvr8w80f" path="res://assets/characters/girl_back_1.png" id="9_074og"]
+[ext_resource type="Texture2D" uid="uid://co7vtm1opsd2c" path="res://assets/buildings/2cb7061c-7fa3-404d-b344-1d3ce3dc421e.png" id="9_cegan"]
+[ext_resource type="Texture2D" uid="uid://4s3w2jkth7if" path="res://assets/buildings/c8a62ff8-9285-4b52-945a-d39cc2b438bb.png" id="10_82xsv"]
+[ext_resource type="Script" uid="uid://d3l4ocxuqxvyd" path="res://scripts/player.gd" id="10_cegan"]
+[ext_resource type="Texture2D" uid="uid://chj4dtprj0ihb" path="res://assets/buildings/file_00000000da6861f7b5d6cc1c421df6fb.png" id="11_82xsv"]
+[ext_resource type="Texture2D" uid="uid://dgnryuap0ffp" path="res://assets/buildings/4c6a99c7-ac13-490f-963f-f2a728c06982.png" id="12_d13ii"]
+[ext_resource type="Texture2D" uid="uid://c430kwt8cguym" path="res://assets/buildings/425b68b9-e120-4489-a13d-c5e033b96a1d.png" id="13_0odxb"]
+[ext_resource type="Texture2D" uid="uid://d3aqxcg0jftj6" path="res://assets/buildings/ac36dc69-ff94-4d3e-ba06-4f0f1920fa48.png" id="15_lswn8"]
+[ext_resource type="Texture2D" uid="uid://cp3iogrjs2j5c" path="res://assets/buildings/a1760eec-1eae-48ab-9434-a59fa4232031.png" id="16_0odxb"]
+[ext_resource type="Texture2D" uid="uid://icrnvafhvxc7" path="res://assets/buildings/ChatGPT Image 19 июл. 2025 г., 21_38_32.png" id="17_lswn8"]
+[ext_resource type="Texture2D" uid="uid://dvhy3ic22vbdt" path="res://assets/buildings/eb8267f0-5d17-46dc-8aa4-81bfdc4d7239.png" id="27_come4"]
+[ext_resource type="Script" uid="uid://bmmfe5ue11pyc" path="res://sprite_2d.gd" id="27_xuqvo"]
+[ext_resource type="Texture2D" uid="uid://chjig3fav1mjf" path="res://assets/buildings/2d0325ce-95b0-45f8-959a-754db8d503f0.png" id="28_h8e4i"]
+[ext_resource type="Texture2D" uid="uid://rx7qhnk5v1rx" path="res://assets/buildings/ChatGPT Image 19 июл. 2025 г., 2.png" id="28_kq58d"]
+[ext_resource type="Script" uid="uid://biaveq4ruy8fv" path="res://car_2.gd" id="29_kq58d"]
+[ext_resource type="Texture2D" uid="uid://cfab071fvf8ha" path="res://assets/buildings/ChatGPT Image 19 июл. 2025 г., 2 (1).png" id="30_ok6jj"]
+[ext_resource type="Script" uid="uid://d0345hc4ytonh" path="res://car_3.gd" id="31_htxhm"]
+[ext_resource type="Texture2D" uid="uid://duq8b4jrxqrq3" path="res://assets/buildings/ChatGPT Image 19 июл. 2025 г., 2 — копия.png" id="32_jq2sk"]
+[ext_resource type="Script" uid="uid://cryn8iam4qvot" path="res://car_4.gd" id="33_4k2k6"]
+[ext_resource type="Texture2D" uid="uid://ke2v16wcg3b" path="res://assets/buildings/ChatGPT Image 19 июл. 2025 г., 2 — копия 2.png" id="34_0rl1p"]
+[ext_resource type="Texture2D" uid="uid://bpo23o3vhelgc" path="res://assets/buildings/ChatGPT Image 19 июл. 2025 г., 2 — копия 3.png" id="34_4k2k6"]
+[ext_resource type="Script" uid="uid://db52i2abobsoh" path="res://car_6.gd" id="35_ok6jj"]
+[ext_resource type="Script" uid="uid://voxip0xewqik" path="res://car_7.gd" id="37_b1qrp"]
+[ext_resource type="Texture2D" uid="uid://8ripjxod5elh" path="res://assets/buildings/ChatGPT Image 19 июл. 2025 г., 2 — копия 4.png" id="38_come4"]
+[ext_resource type="Script" uid="uid://bwdl4rjpi6j80" path="res://nav_panel.gd" id="39_d2t1y"]
+[ext_resource type="Texture2D" uid="uid://b1dkyhb87laqp" path="res://assets/buildings/cee25979-f542-40a4-8952-268d3f84 (2).png" id="40_4lmeg"]
+[ext_resource type="Texture2D" uid="uid://jglx2ganhvqb" path="res://assets/buildings/cee25979-f542-40a4-8952-268d3f84 (1) (1).png" id="41_gngh3"]
+[ext_resource type="Script" uid="uid://iu381u752gun" path="res://nav_circle.gd" id="42_hrvbo"]
+[ext_resource type="Texture2D" uid="uid://chk3660bdurlb" path="res://assets/buildings/518df97e-1f39-4fbd-8058-b29b08441960.png" id="43_0cbny"]
+[ext_resource type="Script" uid="uid://ymtd0bw4erex" path="res://movement_controls.gd" id="43_gngh3"]
+[ext_resource type="Texture2D" uid="uid://y8anivf0rlfu" path="res://assets/buildings/103a1cca-d2ef-47bd-a600-a8a52d05d8d0.png" id="45_0n3wm"]
+[ext_resource type="Texture2D" uid="uid://eca42cganxt6" path="res://assets/buildings/7f2dcb83-e5b1-43e2-af4b-b324cce5c7b1.png" id="46_f6a44"]
+[ext_resource type="Texture2D" uid="uid://ckhrur3trv5bd" path="res://assets/buildings/121e2d90-0fc8-4a46-abae-247f6b2981ed.png" id="47_0cbny"]
+[ext_resource type="Script" uid="uid://bcvvvrepav288" path="res://control.gd" id="47_abqjc"]
+[ext_resource type="Texture2D" uid="uid://dxbol56xami1u" path="res://assets/buildings/a87ef017-705c-4b6c-bbdd-43ac74ffa50f.png" id="47_uypp3"]
+[ext_resource type="Texture2D" uid="uid://btnshje7asl1o" path="res://assets/buildings/bd567b23-fd9b-47a6-ac40-7fd82345dc9c.png" id="48_hrvbo"]
+[ext_resource type="AudioStream" uid="uid://bejq0pp7uc8xi" path="res://audio/happy-kids-music-338159.mp3" id="52_blkrb"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_82xsv"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_efxa6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_dg77c")
+}],
+"loop": true,
+"name": &"walk_down",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_ycdy4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_w48qg")
+}],
+"loop": true,
+"name": &"walk_left",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_vivmo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_2cqfq")
+}],
+"loop": true,
+"name": &"walk_right",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("8_yaehf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_074og")
+}],
+"loop": true,
+"name": &"walk_up",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4c57u"]
+size = Vector2(27, 30)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_efxa6"]
+size = Vector2(3100, 80)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dg77c"]
+size = Vector2(3100, 80)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ycdy4"]
+size = Vector2(80, 2100)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_w48qg"]
+size = Vector2(80, 2100)
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_qnost"]
+radius = 23.0
+height = 128.0
+
+[node name="Main" type="Node2D"]
+position = Vector2(-265, 242)
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(1796, 778)
+texture = ExtResource("1_4c57u")
+
+[node name="Playgraund" type="Sprite2D" parent="Background"]
+position = Vector2(-342, -309)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("2_dg77c")
+
+[node name="Grocery" type="Sprite2D" parent="Background"]
+position = Vector2(-1301, 315)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("4_2cqfq")
+
+[node name="School" type="Sprite2D" parent="Background"]
+position = Vector2(676, 309)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("4_getpj")
+
+[node name="Home1" type="Sprite2D" parent="Background"]
+position = Vector2(1539, -333)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("5_ryguw")
+
+[node name="Park" type="Sprite2D" parent="Background"]
+position = Vector2(697, 926)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("6_074og")
+
+[node name="Library" type="Sprite2D" parent="Background"]
+position = Vector2(696, -891)
+scale = Vector2(0.3, 0.3)
+texture = ExtResource("7_cegan")
+
+[node name="Home2" type="Sprite2D" parent="Background"]
+position = Vector2(1582, 327)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("8_074og")
+
+[node name="Hospital" type="Sprite2D" parent="Background"]
+position = Vector2(-1316, -342)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("9_1u8w0")
+
+[node name="Parking" type="Sprite2D" parent="Background"]
+position = Vector2(-1230, -1000)
+rotation = 0.0872665
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("10_82xsv")
+
+[node name="Park2" type="Sprite2D" parent="Background"]
+position = Vector2(713, -324)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("11_82xsv")
+
+[node name="Home3" type="Sprite2D" parent="Background"]
+position = Vector2(-307, -944)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("12_d13ii")
+
+[node name="Home4" type="Sprite2D" parent="Background"]
+position = Vector2(-351, 286)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("13_0odxb")
+
+[node name="Hospital2" type="Sprite2D" parent="Background"]
+position = Vector2(1764, -911)
+scale = Vector2(0.7, 0.7)
+texture = ExtResource("9_cegan")
+
+[node name="Home5" type="Sprite2D" parent="Background"]
+position = Vector2(-372, 1008)
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("15_lswn8")
+
+[node name="Home6" type="Sprite2D" parent="Background"]
+position = Vector2(-1328, 940)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("16_0odxb")
+
+[node name="TrafficLight" type="Sprite2D" parent="Background"]
+position = Vector2(-1059, -831)
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("17_lswn8")
+
+[node name="TrafficLight2" type="Sprite2D" parent="Background"]
+position = Vector2(-675, -833)
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("17_lswn8")
+
+[node name="TrafficLight3" type="Sprite2D" parent="Background"]
+position = Vector2(-682, 402)
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("17_lswn8")
+
+[node name="TrafficLight4" type="Sprite2D" parent="Background"]
+position = Vector2(-27.0001, 407)
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("17_lswn8")
+
+[node name="Player" type="CharacterBody2D" parent="."]
+position = Vector2(205, 13)
+script = ExtResource("10_cegan")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Player"]
+position = Vector2(1246, 1213)
+scale = Vector2(0.3, 0.3)
+sprite_frames = SubResource("SpriteFrames_82xsv")
+animation = &"walk_down"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
+position = Vector2(1241.5, 1255)
+shape = SubResource("RectangleShape2D_4c57u")
+one_way_collision_margin = 0.0
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+position = Vector2(1248, 1241)
+limit_left = 0
+limit_top = 0
+limit_right = 3050
+limit_bottom = 2050
+
+[node name="WorldBounds" type="StaticBody2D" parent="."]
+
+[node name="TopWall" type="CollisionShape2D" parent="WorldBounds"]
+position = Vector2(1804, -209)
+shape = SubResource("RectangleShape2D_efxa6")
+
+[node name="BottomWall" type="CollisionShape2D" parent="WorldBounds"]
+position = Vector2(1787, 1808)
+shape = SubResource("RectangleShape2D_dg77c")
+
+[node name="LeftWall" type="CollisionShape2D" parent="WorldBounds"]
+position = Vector2(254, 777)
+shape = SubResource("RectangleShape2D_ycdy4")
+
+[node name="RightWall" type="CollisionShape2D" parent="WorldBounds"]
+position = Vector2(3348, 798)
+shape = SubResource("RectangleShape2D_w48qg")
+
+[node name="Car" type="Node2D" parent="."]
+script = ExtResource("27_xuqvo")
+
+[node name="Sprite2D" type="Sprite2D" parent="Car"]
+position = Vector2(925, 1886)
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("28_kq58d")
+script = ExtResource("27_xuqvo")
+
+[node name="Car2" type="Node2D" parent="."]
+script = ExtResource("29_kq58d")
+
+[node name="Sprite2D" type="Sprite2D" parent="Car2"]
+position = Vector2(3480, 797)
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("30_ok6jj")
+
+[node name="Car3" type="Node2D" parent="."]
+script = ExtResource("31_htxhm")
+
+[node name="Sprite2D" type="Sprite2D" parent="Car3"]
+position = Vector2(1979, -365)
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("32_jq2sk")
+
+[node name="Car4" type="Node2D" parent="."]
+script = ExtResource("33_4k2k6")
+
+[node name="Sprite2D" type="Sprite2D" parent="Car4"]
+position = Vector2(3028, 2006)
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("34_0rl1p")
+
+[node name="Car6" type="Node2D" parent="."]
+position = Vector2(153, 1409)
+script = ExtResource("35_ok6jj")
+
+[node name="Sprite2D" type="Sprite2D" parent="Car6"]
+position = Vector2(-9, 6)
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("34_4k2k6")
+
+[node name="Car7" type="Node2D" parent="."]
+script = ExtResource("37_b1qrp")
+
+[node name="Sprite2D" type="Sprite2D" parent="Car7"]
+position = Vector2(145, -212)
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("38_come4")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="NavPanel" type="Control" parent="CanvasLayer"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("39_d2t1y")
+
+[node name="TargetIcon" type="TextureButton" parent="CanvasLayer/NavPanel"]
+layout_mode = 0
+offset_left = 23.0
+offset_top = 522.0
+offset_right = 326.0
+offset_bottom = 825.0
+scale = Vector2(0.5, 0.5)
+texture_normal = ExtResource("40_4lmeg")
+stretch_mode = 0
+
+[node name="IconLayer" type="TextureRect" parent="CanvasLayer/NavPanel/TargetIcon"]
+layout_mode = 0
+offset_left = 46.0
+offset_top = 50.0
+offset_right = 258.0
+offset_bottom = 262.0
+
+[node name="TargetList" type="TextureRect" parent="CanvasLayer/NavPanel"]
+layout_mode = 0
+offset_left = 23.0
+offset_top = 524.0
+offset_right = 923.0
+offset_bottom = 827.0
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("41_gngh3")
+
+[node name="HouseButton" type="TextureButton" parent="CanvasLayer/NavPanel/TargetList"]
+layout_mode = 0
+offset_left = 322.0
+offset_top = 112.0
+offset_right = 1858.0
+offset_bottom = 1136.0
+scale = Vector2(0.07, 0.07)
+texture_normal = ExtResource("13_0odxb")
+
+[node name="SchoolButton" type="TextureButton" parent="CanvasLayer/NavPanel/TargetList"]
+layout_mode = 0
+offset_left = 460.0
+offset_top = 118.0
+offset_right = 1996.0
+offset_bottom = 1142.0
+scale = Vector2(0.07, 0.07)
+texture_normal = ExtResource("4_getpj")
+
+[node name="PlaygroundButton" type="TextureButton" parent="CanvasLayer/NavPanel/TargetList"]
+layout_mode = 0
+offset_left = 600.0
+offset_top = 114.0
+offset_right = 2136.0
+offset_bottom = 1138.0
+scale = Vector2(0.07, 0.07)
+texture_normal = ExtResource("2_dg77c")
+
+[node name="StoreButton" type="TextureButton" parent="CanvasLayer/NavPanel/TargetList"]
+layout_mode = 0
+offset_left = 732.0
+offset_top = 114.0
+offset_right = 2268.0
+offset_bottom = 1138.0
+scale = Vector2(0.08, 0.08)
+texture_normal = ExtResource("4_2cqfq")
+
+[node name="IconLayer" type="TextureRect" parent="CanvasLayer/NavPanel/TargetList"]
+layout_mode = 0
+offset_left = 46.0
+offset_top = 50.0
+offset_right = 258.0
+offset_bottom = 262.0
+
+[node name="NavCircle" type="Control" parent="CanvasLayer"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("42_hrvbo")
+
+[node name="CircleBackground" type="TextureRect" parent="CanvasLayer/NavCircle"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("28_h8e4i")
+
+[node name="Arrow" type="TextureRect" parent="CanvasLayer/NavCircle"]
+layout_mode = 0
+offset_left = -664.0
+offset_top = -410.0
+offset_right = 872.0
+offset_bottom = 614.0
+scale = Vector2(0.08, 0.08)
+pivot_offset = Vector2(768, 512)
+texture = ExtResource("43_0cbny")
+
+[node name="MovementControls" type="Control" parent="CanvasLayer"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("43_gngh3")
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer/MovementControls"]
+layout_mode = 0
+offset_left = 1027.0
+offset_top = 465.0
+offset_right = 2051.0
+offset_bottom = 1489.0
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("27_come4")
+
+[node name="Button_Up" type="Button" parent="CanvasLayer/MovementControls"]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 0
+offset_left = 1121.0
+offset_top = 494.0
+offset_right = 1191.0
+offset_bottom = 560.0
+
+[node name="Button_Down" type="Button" parent="CanvasLayer/MovementControls"]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 0
+offset_left = 1117.0
+offset_top = 631.0
+offset_right = 1189.0
+offset_bottom = 700.0
+
+[node name="Button_Left" type="Button" parent="CanvasLayer/MovementControls"]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 0
+offset_left = 1049.0
+offset_top = 564.0
+offset_right = 1116.0
+offset_bottom = 627.0
+
+[node name="Button_Right" type="Button" parent="CanvasLayer/MovementControls"]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 0
+offset_left = 1195.0
+offset_top = 568.0
+offset_right = 1259.0
+offset_bottom = 628.0
+
+[node name="Control" type="Control" parent="CanvasLayer"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("47_abqjc")
+
+[node name="YouTubeKidsButton" type="TextureButton" parent="CanvasLayer/Control"]
+layout_mode = 0
+offset_left = 1094.0
+offset_top = 39.0
+offset_right = 2630.0
+offset_bottom = 1063.0
+scale = Vector2(0.1, 0.1)
+texture_normal = ExtResource("47_uypp3")
+
+[node name="MomTarget" type="Area2D" parent="."]
+position = Vector2(1336, 1185)
+
+[node name="Sprite2D" type="Sprite2D" parent="MomTarget"]
+position = Vector2(1.00003, -1)
+scale = Vector2(0.0978515, 0.1)
+texture = ExtResource("45_0n3wm")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="MomTarget"]
+shape = SubResource("CapsuleShape2D_qnost")
+
+[node name="TeacherTarget" type="Area2D" parent="."]
+position = Vector2(2440, 1224)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TeacherTarget"]
+
+[node name="Sprite2D" type="Sprite2D" parent="TeacherTarget"]
+position = Vector2(2, -52)
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("46_f6a44")
+
+[node name="SellerTarget" type="Area2D" parent="."]
+position = Vector2(369, 1220)
+
+[node name="Sprite2D" type="Sprite2D" parent="SellerTarget"]
+position = Vector2(-4.99997, -40)
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("47_0cbny")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="SellerTarget"]
+
+[node name="ClassmateTarget" type="Area2D" parent="."]
+position = Vector2(1748, 409)
+
+[node name="Sprite2D" type="Sprite2D" parent="ClassmateTarget"]
+position = Vector2(6, -27)
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("48_hrvbo")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ClassmateTarget"]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("52_blkrb")
+volume_db = -20.144
+autoplay = true
+parameters/looping = true
+
+[connection signal="pressed" from="CanvasLayer/MovementControls/Button_Right" to="CanvasLayer/MovementControls" method="_on_button_right_pressed"]
