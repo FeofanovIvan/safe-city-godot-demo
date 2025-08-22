@@ -422,44 +422,44 @@ script = ExtResource("43_gngh3")
 
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer/MovementControls"]
 layout_mode = 0
-offset_left = 1027.0
-offset_top = 465.0
-offset_right = 2051.0
-offset_bottom = 1489.0
-scale = Vector2(0.25, 0.25)
+offset_left = 920.0
+offset_top = 359.0
+offset_right = 1944.0
+offset_bottom = 1383.0
+scale = Vector2(0.35, 0.35)
 texture = ExtResource("27_come4")
 
 [node name="Button_Up" type="Button" parent="CanvasLayer/MovementControls"]
 modulate = Color(1, 1, 1, 0)
 layout_mode = 0
-offset_left = 1121.0
-offset_top = 494.0
-offset_right = 1191.0
-offset_bottom = 560.0
+offset_left = 1050.0
+offset_top = 404.0
+offset_right = 1147.0
+offset_bottom = 481.0
 
 [node name="Button_Down" type="Button" parent="CanvasLayer/MovementControls"]
 modulate = Color(1, 1, 1, 0)
 layout_mode = 0
-offset_left = 1117.0
-offset_top = 631.0
-offset_right = 1189.0
-offset_bottom = 700.0
+offset_left = 1054.0
+offset_top = 611.0
+offset_right = 1149.0
+offset_bottom = 686.0
 
 [node name="Button_Left" type="Button" parent="CanvasLayer/MovementControls"]
 modulate = Color(1, 1, 1, 0)
 layout_mode = 0
-offset_left = 1049.0
-offset_top = 564.0
-offset_right = 1116.0
-offset_bottom = 627.0
+offset_left = 958.0
+offset_top = 499.0
+offset_right = 1037.0
+offset_bottom = 583.0
 
 [node name="Button_Right" type="Button" parent="CanvasLayer/MovementControls"]
 modulate = Color(1, 1, 1, 0)
 layout_mode = 0
-offset_left = 1195.0
-offset_top = 568.0
-offset_right = 1259.0
-offset_bottom = 628.0
+offset_left = 1161.0
+offset_top = 500.0
+offset_right = 1246.0
+offset_bottom = 585.0
 
 [node name="Control" type="Control" parent="CanvasLayer"]
 layout_mode = 3
