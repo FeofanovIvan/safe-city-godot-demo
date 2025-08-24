@@ -1,35 +1,38 @@
-# Safe City Kids — Godot Demo
+# 🚸 Safe City Kids — Godot Demo
 
-Небольшая демо-игра на Godot для детей: «Безопасный город».  
-Цель — дать базовый интерактивный опыт правил дорожного движения: движение по городу, светофоры, безопасные переходы, простые задания.
+A small **demo game** built with Godot for children: *“Safe City”*.  
+Goal: introduce basic traffic rules through simple, interactive gameplay (city movement, traffic lights, safe crossings, mini-tasks).
 
-https://github.com/FeofanovIvan/safe-city-godot-demo
+🔗 **GitHub:** https://github.com/FeofanovIvan/safe-city-godot-demo  
+📲 **APK:** https://github.com/FeofanovIvan/safe-city-godot-demo/releases/download/v0.1.0/CitySafeKids8.apk
 
-## 📸 Скриншоты
-![Геймплей 1](media/5278625492842445051.jpg)
-![Геймплей 2](media/5278625492842445052.jpg)
+---
 
+## 📸 Screenshots
+![Gameplay 1](media/5278625492842445051.jpg)
+![Gameplay 2](media/5278625492842445052.jpg)
 
-## ✨ Особенности
-- Управление под тач: экранный стик / кнопки.
-- Простая карта города, движущиеся объекты (машины, персонаж).
-- Лёгкие игровые правила: избегать столкновений, соблюдать переходы.
-- Структура проекта на Godot 4 (GDScript), готовая к расширению.
+---
 
-## 🛠 Технологии
-- **Godot 4** (GDScript)
-- Спрайты/тайлы в `assets/`
-- Экспорт под Android (APK можно собрать через Godot Export)
-- Git LFS для крупных медиа-файлов
-  
-📲 **Скачать APK:**  
-https://github.com/FeofanovIvan/safe-city-godot-demo/releases/download/v0.1.0/CitySafeKids8.apk
+## ✨ Features
+- Touch controls: on-screen joystick / buttons  
+- Simple city map with moving objects (cars, character)  
+- Easy mechanics: avoid collisions, follow crosswalk rules  
+- Clean Godot 4 project structure (GDScript), ready to extend
 
-## 🚀 Как запустить локально
-1. Установить **Godot 4.x**.
-2. Клонировать репозиторий:
+---
+
+## 🛠 Technologies
+- **Godot 4** (GDScript)  
+- Sprites/tiles in `assets/`  
+- Android export via Godot **Export**  
+- Git LFS for large media
+
+---
+
+## 🚀 Run Locally
+1. Install **Godot 4.x**  
+2. Clone the repo:
    ```bash
    git clone https://github.com/FeofanovIvan/safe-city-godot-demo.git
    cd safe-city-godot-demo
-
-
